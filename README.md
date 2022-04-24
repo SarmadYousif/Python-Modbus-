@@ -1,8 +1,12 @@
 # Python-Modbus-
 Implementation of a Controller acts as Modbus Master, Execution of Logic as Function depending on XML data base 
+
 Modbus layer is being handled by PyModbus library 
+
 the control is based on Function Block Logic (Function Block Language) all FB will executed in order. 
+
 the data based is based on XML file, which has all the configuration ( 
+
   - Defining Devices ( IP, Port) 
   - Defining Modbus setting to used. 
   - Defining the control module to be executed  ( Customizatoin of Control Module (CM) should be done in XML file) 
